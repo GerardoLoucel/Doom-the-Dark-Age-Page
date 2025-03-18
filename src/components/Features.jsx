@@ -61,6 +61,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
       <video
         src={src}
         loop
+        loading="lazy"
         muted
         autoPlay
         className="absolute left-0 top-0 size-full object-cover object-center"
@@ -191,6 +192,7 @@ const Features = () => (
             src="videos/feature-5.mp4"
             loop
             muted
+            loading="lazy"
             autoPlay
             className="size-full object-cover object-center"
           />
